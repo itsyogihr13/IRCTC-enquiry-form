@@ -1,0 +1,50 @@
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+table,
+td,
+th {
+  border: 2px solid black;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+form > input[type="submit"] {
+  background-color: teal;
+  color: white;
+
+  padding: 5px 20px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+th,
+td {
+  padding: 15px;
+}
+#filter,
+#select {
+  width: 200px;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 20px;
+
+  width: 250px;
+  height: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  color: cadetblue;
+}
+label {
+  font-size: 20px;
+}

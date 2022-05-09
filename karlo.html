@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>karlo</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div id="container">
+      <div id="box2">
+        <h1>Railway Ticket [IRCTC]</h1>
+        <h2>Sort According your preferance</h2>
+        <select id="filter" onclick="filter()">
+          <option value="">Select category by filter</option>
+          <option value="Refund">Refund</option>
+          <option value="Item missing">Item missing</option>
+          <option value="Order">Order status</option>
+
+          <option value="">Dilivered</option>
+          <option value="">Feedback</option>
+        </select>
+
+        <h2>Create Form</h2>
+        <form id="form">
+          <select id="select">
+            <option value="">Select category</option>
+            <option value="Refund">Refund</option>
+            <option value="Item missing">Item missing</option>
+            <option value="Order status">Order status</option>
+
+            <option value="Dilivery">Dilivered</option>
+            <option value="Feedback">Feedback</option>
+          </select>
+          <br />
+          <label> Ticket Body</label> <br />
+          <input type="text" id="body" /> <br />
+          <label> Data stamp</label><br />
+          <input type="date" id="date" /> <br />
+          <label> Ticket Number</label><br />
+          <input type="text" id="number" /> <br />
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+      <div id="box2">
+        <h1>Details</h1>
+        <hr />
+
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Category</th>
+              <th>Body</th>
+              <th>Date</th>
+              <th>TicketNumber</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="script.js"></script>
